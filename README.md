@@ -102,6 +102,14 @@ This project implements a modern data engineering pipeline on Azure to ingest, t
 https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2014-01-01&endtime=2014-01-02
 ```
 
+## ADF PIPELINE
+
+![Screenshot 2025-05-26 195918](https://github.com/user-attachments/assets/6d1b281b-2684-42b1-afbf-48fdbf1f9214)
+
+## DASHBOARD
+
+![Screenshot 2025-05-26 193133](https://github.com/user-attachments/assets/07c0156c-2361-4f50-ac0c-93835c4a395e)
+
 ## Enhancements (Future Scope)
 
 * Implement **Autoloader** for continuous file ingestion
