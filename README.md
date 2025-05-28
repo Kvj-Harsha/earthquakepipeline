@@ -5,7 +5,8 @@
 This project implements a modern data engineering pipeline on Azure to ingest, transform, and visualize earthquake data using the USGS Earthquake API. It applies the Medallion Architecture with Bronze, Silver, and Gold layers using Azure Databricks, Azure Data Factory, Azure Synapse Analytics, and Power BI.
 
 ## Architecture
-![image](https://github.com/user-attachments/assets/6d4b7be0-900c-4a88-b107-b82e1d2b0db4)
+![diagram](https://github.com/user-attachments/assets/6aa6d6a1-2691-4f99-bd66-ace5ec56a5a7)
+
 
 ```
           +-----------------------------+
