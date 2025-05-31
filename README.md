@@ -7,46 +7,10 @@ This project implements a modern data engineering pipeline on Azure to ingest, t
 ## Architecture
 ![diagram](https://github.com/user-attachments/assets/6aa6d6a1-2691-4f99-bd66-ace5ec56a5a7)
 
+----
 
-```
-          +-----------------------------+
-          |  USGS Earthquake API       |
-          +-------------+---------------+
-                        |
-                        v
-          +-----------------------------+
-          | Azure Data Factory (ADF)    |
-          |  - Triggers Databricks Job |
-          +-------------+---------------+
-                        |
-                        v
-              +-------------------+
-              | Azure Databricks  |
-              |  Bronze Notebook  |
-              +--------+----------+
-                       |
-                       v
-              +-------------------+
-              | Silver Notebook   |
-              +--------+----------+
-                       |
-                       v
-              +-------------------+
-              | Gold Notebook     |
-              +--------+----------+
-                       |
-                       v
-           +--------------------------+
-           | Azure Synapse Analytics |
-           | - SQL Endpoint Layer    |
-           +--------------------------+
-                       |
-                       v
-               +----------------+
-               | Power BI       |
-               | Dashboards     |
-               +----------------+
-```
+![image](https://github.com/user-attachments/assets/75753311-a496-4d14-ab0b-3669d7578b15)
+
 
 ## Features
 
